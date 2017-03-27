@@ -1,0 +1,6 @@
+install: true
+language: Scala
+sbt ++$TRAVIS_SCALA_VERSION test
+script:
+sbt_args:
+
