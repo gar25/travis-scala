@@ -1,6 +1,7 @@
 install: true
 language: Scala
-sbt ++$TRAVIS_SCALA_VERSION test
+# default command that runs the test suite
+#sbt ++$TRAVIS_SCALA_VERSION test
 script:
 sbt_args:
 
